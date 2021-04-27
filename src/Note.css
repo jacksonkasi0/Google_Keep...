@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+.note {
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(189, 189, 189);
+  padding: 30px;
+  width: 240px;
+  margin: 14px;
+  float: left;
+}
+
+.note h1 {
+  font-size: 1.3em;
+  margin-bottom: 6px;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  color: rgb(255, 196, 0);
+  border: none;
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
